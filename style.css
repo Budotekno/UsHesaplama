@@ -1,0 +1,58 @@
+body{
+    background-color:cadetblue;
+}
+
+.calisma{
+    width: 250px;
+    height: auto;
+    margin: 50px auto;
+
+
+}
+
+.baslik{
+    font-size: 30px;
+    width: 190px;
+    height: 35px;
+    display: block;
+    margin: 0 0 20px 40px;
+
+    
+}
+
+#buton{
+    height: 30px;
+    width: 205px;
+    font-size: 17px;
+    margin: 5px 0 0 0px;
+
+}
+
+#buton:hover{
+    background-color: rgb(61, 116, 153);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.sonucUs{
+    margin: 0 0 0 90px;
+    font-size: 18px;
+}
+
+.sonuc{
+    margin: 20px 0 0 0;
+    font-size: 25px;
+}
+
+#us, #sayi,#sonuc{
+    height: 30px;
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.usBaslik, .usBaslik2{
+    font-size: 20px;
+}
+

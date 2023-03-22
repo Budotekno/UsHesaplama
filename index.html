@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Üs Hesaplama</title>
+</head>
+<body>
+
+    <div class="calisma">
+        <form action="">
+
+            <span class="baslik"></span>
+            <table>
+                <tr >
+                    <td width="100" height="30" class="usBaslik">
+                        Üs
+                    </td>
+
+                    <td>
+                        <input type="text" id="us" autocomplete="off" >
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td height="30" class="usBaslik2">
+                        Sayı
+
+                    </td>
+                    
+                      
+                    <td>
+                        <input type="text" id="sayi" autocomplete="off">
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td height="30" class="usBaslik">
+                        Sonuc
+
+                    </td>
+                    
+                      
+                    <td>
+                        <input type="text" autocomplete="off" id="sonuc" disabled >
+                        
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td height="30">
+                        
+
+                    </td>
+                    
+                      
+                    <td>
+                        <input type="button" value="Hesapla" onclick="usHesapla()" id="buton">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+
+        <div class="sonuc">
+            <div class="sonucUs" id="sonucUs2"></div>
+            <div class="sonucSayi" id="sonucSayi2"></div>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>
